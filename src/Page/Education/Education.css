@@ -1,0 +1,92 @@
+/* Section Container */
+.education-section {
+  padding: 100px 20px 60px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  text-align: center;
+}
+
+/* Section Heading */
+.education-section h2 {
+  font-size: 3rem;
+  color: #222;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.education-section h2::after {
+  content: '';
+  width: 80px;
+  height: 4px;
+  background-color: #007bff;
+  display: block;
+  margin: 12px auto 0;
+  border-radius: 2px;
+}
+
+/* Cards Container: Flex Layout */
+.education-cards {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  gap: 40px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* Individual Card */
+.education-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 30px 25px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e0e0e0;
+  flex: 1 1 45%;
+  min-width: 300px;
+  max-width: 450px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 123, 255, 0.2);
+}
+
+/* Icon */
+.edu-icon {
+  font-size: 3rem;
+  color: #007bff;
+  margin-bottom: 15px;
+}
+
+/* Title & Text */
+.education-card h3 {
+  font-size: 1.6rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.education-card p {
+  font-size: 1rem;
+  color: #555;
+  margin: 0;
+  line-height: 1.6;
+}
+
+/* Responsive: Stack Cards on Small Screens */
+@media (max-width: 768px) {
+  .education-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .education-card {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .education-section h2 {
+    font-size: 2.2rem;
+  }
+}
