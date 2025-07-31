@@ -19,7 +19,7 @@ const About = () => {
             <span className="highlight">WEB DEVELOPER AND UI/UX</span> designer.
           </h1>
           <p>
-            I’m Silambarasan, a passionate Full Stack Web Developer and UI/UX Designer currently pursuing my B.E. in Computer Science Engineering at Er. Perumal Manimekalai College of Engineering. With hands-on experience in developing dynamic web applications using the MERN stack and designing user-centric interfaces in Figma, I bridge the gap between functionality and design.
+            I’m Silambarasan, a passionate Full Stack Web Developer and UI/UX Designer currently pursuing my B.E. in Computer Science Engineering at Er. Perumal Manimekalai College of Engineering. With hands-on experience in developing dynamic web applications using the MERN stack and designing user-centric interfaces in Figma, I bridge the gap between functionality and designs.
           </p>
 
           
