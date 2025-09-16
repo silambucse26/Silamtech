@@ -22,7 +22,7 @@ const Navbar = () => {
         <li><a><Link to="/Paper">View My Publication</Link></a></li>
         <li><a><Link to="/Gallery">Gallery</Link></a></li>
          <li><a><Link to="/contact">Contact Me</Link></a></li>
-        <button onClick={() => window.open('/Silambarasan_Web Developer_Resume.pdf', '_blank')}>
+        <button onClick={() => window.open('/Silambarasan_Resume_Web Development.pdf', '_blank')}>
   Resume
 </button>
 
